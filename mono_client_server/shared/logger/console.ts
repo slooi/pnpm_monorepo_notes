@@ -1,0 +1,1 @@
+export const loggerConsole = () => { console.log("console.logggggggging") }

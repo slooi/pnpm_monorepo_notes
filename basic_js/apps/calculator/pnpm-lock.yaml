@@ -1,0 +1,17 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      math-lib:
+        specifier: workspace:^
+        version: link:../../packages/math-lib
+
+  ../..: {}
+
+  ../../packages/math-lib: {}
